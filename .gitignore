@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 data/raw/
-data/LEVIR-MCI-dataset/
+data/LEVIR-MCI-dataset
 local_runs/
 releases/
 *.pt
