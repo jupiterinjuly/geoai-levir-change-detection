@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+data/LEVIR-MCI-dataset/
+local_runs/
+releases/
+*.pt
+*.log
+application/checkpoints/
+*.docx
+*.pdf

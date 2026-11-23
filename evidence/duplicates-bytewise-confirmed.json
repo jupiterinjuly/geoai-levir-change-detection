@@ -1,0 +1,37 @@
+[
+  {
+    "train": "train_000017.png",
+    "test": "test_000141.png",
+    "a_equal": true,
+    "b_equal": true,
+    "labels_equal": false
+  },
+  {
+    "train": "train_000018.png",
+    "test": "test_000142.png",
+    "a_equal": true,
+    "b_equal": true,
+    "labels_equal": true
+  },
+  {
+    "train": "train_000019.png",
+    "test": "test_000143.png",
+    "a_equal": true,
+    "b_equal": true,
+    "labels_equal": true
+  },
+  {
+    "train": "train_000020.png",
+    "test": "test_000144.png",
+    "a_equal": true,
+    "b_equal": true,
+    "labels_equal": true
+  },
+  {
+    "train": "train_001389.png",
+    "test": "test_000292.png",
+    "a_equal": true,
+    "b_equal": true,
+    "labels_equal": true
+  }
+]

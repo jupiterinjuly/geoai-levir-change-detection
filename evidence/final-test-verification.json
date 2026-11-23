@@ -1,0 +1,40 @@
+{
+  "state": "passed",
+  "models": [
+    {
+      "model": "baseline",
+      "all_masks_recomputed": 1929,
+      "confusion_exact": true,
+      "weights_unchanged": true
+    },
+    {
+      "model": "attention",
+      "all_masks_recomputed": 1929,
+      "confusion_exact": true,
+      "weights_unchanged": true
+    }
+  ],
+  "timing": {
+    "baseline": {
+      "warmup_batches": 20,
+      "timed_batches": 100,
+      "batch_size": 2,
+      "mean_ms_per_pair_amortized": 27.070843349974893,
+      "median_batch_ms": 53.02656249841675,
+      "sample_scope": "first200 test filenames, fixed order",
+      "excludes": "image reading, host-to-device copy, PNG/CSV saving",
+      "not_single_pair_latency": true
+    },
+    "attention": {
+      "warmup_batches": 20,
+      "timed_batches": 100,
+      "batch_size": 2,
+      "mean_ms_per_pair_amortized": 27.857457929931115,
+      "median_batch_ms": 54.085520499938866,
+      "sample_scope": "first200 test filenames, fixed order",
+      "excludes": "image reading, host-to-device copy, PNG/CSV saving",
+      "not_single_pair_latency": true
+    }
+  },
+  "protocol_sha256": "25f2b3aa115571f1b3ba3d91ee7a3b80d833c80fd850e319d4a5bd0a42ebcb9c"
+}

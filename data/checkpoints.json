@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "filename": "baseline_best.pt",
+    "sha256": "36c816f8d6ef8fe71d984cd6af3f7ec1dd3f7f800da5107563c26c4e3bd38243",
+    "install_to": "runs/formal_baseline_seed42/best.pt",
+    "bytes": 8090094
+  },
+  "attention": {
+    "filename": "attention_best.pt",
+    "sha256": "2144509a97185d0a1c11175029da37bacc41a4e979a7c1152477dc05a46deb53",
+    "install_to": "runs/formal_attention_seed42/best.pt",
+    "bytes": 10465031
+  }
+}

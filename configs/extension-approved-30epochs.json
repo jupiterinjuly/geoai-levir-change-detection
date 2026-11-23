@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "seed": 42,
+  "resume_from_epochs": 15,
+  "next_segment_total_epoch_cap": 30,
+  "additional_epochs_per_model_at_most": 15,
+  "early_stopping_patience": 7,
+  "recipe_changes": null,
+  "test_inference": false,
+  "extra_seeds": false,
+  "approved_beijing": "2026-11-22T11:27:01.848230+08:00",
+  "user_authorization": "现在进度到多少了？ 继续",
+  "interpretation": "continue the original up-to-30-epoch plan after the completed 15-epoch segment; preserve recipe and early stopping",
+  "estimate_active_hours": [
+    8,
+    10
+  ]
+}

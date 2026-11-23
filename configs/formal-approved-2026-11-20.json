@@ -1,0 +1,39 @@
+{
+  "status": "approved for first five epochs per model",
+  "stage": "first formal seed-42 pair, 5 epochs each then review",
+  "training_pairs": 6794,
+  "validation_pairs": 1333,
+  "test_pairs": 1929,
+  "manifest": "evidence/proposed-clean-manifest.csv",
+  "normalization": "evidence/normalization-clean-train.json",
+  "seed": 42,
+  "models": [
+    "UNet width16",
+    "same UNet + one bottleneck Transformer block, 4 heads"
+  ],
+  "device": "mps",
+  "precision": "float32",
+  "batch": 2,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "loss": "0.5 cross entropy + 0.5 foreground Dice; batch pooled, smooth 1e-6; empty class FP penalized",
+  "augmentation": "matched pair flips and rotations by multiples of 90 degrees; same seed/index/epoch",
+  "selection": "maximum validation road/building foreground mean IoU; no test selection",
+  "eventual_max_epochs": 30,
+  "early_stopping_patience": 7,
+  "initial_segment_epochs": 5,
+  "test_evaluation": "only after final protocol/model selection is fixed; evaluate all formal runs",
+  "initialization": "reset matched seeds; do not reuse diagnostic/benchmark weights",
+  "later_seeds_if_feasible": [
+    2026,
+    3407
+  ],
+  "user_authorization": "2026-11-20 user: 嗯可以 继续吧; confirms previous question about cleanup and seed42 five-epoch pair",
+  "approved_beijing": "2026-11-20T21:54:17.453109+08:00",
+  "manifest_sha256": "abbf5aa17a120a3edc7a589d6a7b003e230b69e76458525b9de8478daa8787ff",
+  "normalization_sha256": "cf6cb1259e88642ead0bb7c93eeab5371bcb30a785dbfcc0e658d9662fb550b6",
+  "checkpoint_interval_steps": 100,
+  "execution_order": "paired epochs: baseline1, attention1, baseline2, attention2, through epoch5",
+  "best_selection_ties": "keep earlier checkpoint if score is exactly equal"
+}

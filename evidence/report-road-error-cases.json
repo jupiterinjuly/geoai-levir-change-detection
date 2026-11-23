@@ -1,0 +1,12 @@
+{
+  "samples": [
+    "test_001640.png",
+    "test_001880.png",
+    "test_001146.png"
+  ],
+  "selection_rules": [
+    "maximum attention road FN pixels",
+    "maximum attention road FP among empty images",
+    "first small-change filename with positive road label"
+  ]
+}

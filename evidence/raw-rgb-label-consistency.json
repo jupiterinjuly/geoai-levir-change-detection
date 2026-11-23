@@ -1,0 +1,24 @@
+{
+  "samples": 10077,
+  "grayscale_value_pixels": {
+    "0": 604623160,
+    "128": 23751214,
+    "255": 32031898
+  },
+  "modes": {
+    "RGB": 10077
+  },
+  "mapping": {
+    "0": "background",
+    "128": "road_change",
+    "255": "building_change"
+  },
+  "rgb_mapping": {
+    "0,0,0": "background",
+    "255,255,0": "road_change",
+    "255,0,0": "building_change"
+  },
+  "mismatches": [],
+  "elapsed_seconds": 55.45917974999975,
+  "readme_discrepancy": "Archive readme label-rgb road color differs from actual pixels; class 128 consistently maps to yellow."
+}

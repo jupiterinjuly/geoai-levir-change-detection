@@ -1,0 +1,145 @@
+[
+  {
+    "ids": [
+      [
+        "train",
+        "train_000994.png"
+      ],
+      [
+        "train",
+        "train_001391.png"
+      ]
+    ],
+    "label_disagreement_pixels": 1370
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_000995.png"
+      ],
+      [
+        "train",
+        "train_001392.png"
+      ]
+    ],
+    "label_disagreement_pixels": 1411
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_000996.png"
+      ],
+      [
+        "train",
+        "train_001405.png"
+      ]
+    ],
+    "label_disagreement_pixels": 2512
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_001009.png"
+      ],
+      [
+        "train",
+        "train_001406.png"
+      ]
+    ],
+    "label_disagreement_pixels": 2378
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_001010.png"
+      ],
+      [
+        "train",
+        "train_001407.png"
+      ]
+    ],
+    "label_disagreement_pixels": 4614
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_005683.png"
+      ],
+      [
+        "train",
+        "train_005697.png"
+      ]
+    ],
+    "label_disagreement_pixels": 0
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_005684.png"
+      ],
+      [
+        "train",
+        "train_005698.png"
+      ]
+    ],
+    "label_disagreement_pixels": 0
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_005687.png"
+      ],
+      [
+        "train",
+        "train_005701.png"
+      ]
+    ],
+    "label_disagreement_pixels": 0
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_005691.png"
+      ],
+      [
+        "train",
+        "train_005705.png"
+      ]
+    ],
+    "label_disagreement_pixels": 0
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_005695.png"
+      ],
+      [
+        "train",
+        "train_005709.png"
+      ]
+    ],
+    "label_disagreement_pixels": 0
+  },
+  {
+    "ids": [
+      [
+        "train",
+        "train_005696.png"
+      ],
+      [
+        "train",
+        "train_005710.png"
+      ]
+    ],
+    "label_disagreement_pixels": 0
+  }
+]

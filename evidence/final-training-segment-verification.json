@@ -1,0 +1,21 @@
+{
+  "state": "passed",
+  "runs": [
+    {
+      "model": "baseline",
+      "epochs": 30,
+      "early_stopped": false,
+      "best_epoch": 27,
+      "best_validation_foreground_miou": 0.6509934370653006
+    },
+    {
+      "model": "attention",
+      "epochs": 30,
+      "early_stopped": false,
+      "best_epoch": 29,
+      "best_validation_foreground_miou": 0.6525803208207601
+    }
+  ],
+  "matched_epoch_sequences_equal": true,
+  "test_evaluated": false
+}

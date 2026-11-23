@@ -1,0 +1,240 @@
+{
+  "samples": 1929,
+  "iou": [
+    0.9679771141704765,
+    0.6759652513158456,
+    0.7231552291649621
+  ],
+  "precision": [
+    0.9860148273039864,
+    0.7784137601129226,
+    0.8263565207792466
+  ],
+  "recall": [
+    0.9814517938668352,
+    0.8370287046387314,
+    0.8527348003976667
+  ],
+  "f1": [
+    0.983728019193444,
+    0.8066578358771186,
+    0.8393384611268038
+  ],
+  "foreground_miou": 0.6995602402404039,
+  "foreground_valid_classes": 2,
+  "confusion_matrix": [
+    [
+      113285042,
+      953755,
+      1187190
+    ],
+    [
+      662838,
+      3536006,
+      25630
+    ],
+    [
+      943944,
+      52818,
+      5771721
+    ]
+  ],
+  "road_area_mae_pp": 0.8800856618451108,
+  "building_area_mae_pp": 0.8999347439573613,
+  "empty_images": 953,
+  "empty_false_alarm_image_rate": 0.44700944386149005,
+  "empty_mean_pred_change_fraction": 0.004033523991875984,
+  "ranking_top20pct": {
+    "selected_images": 386,
+    "positive_images_total": 976,
+    "positive_image_recall": 0.3944672131147541,
+    "true_change_pixel_coverage": 0.7448554560888394,
+    "tie_break": "filename ascending",
+    "claim_scope": "offline scale-based sorting; not measured human labor savings"
+  },
+  "size_groups": {
+    "empty": {
+      "images": 953,
+      "metrics": {
+        "iou": [
+          0.995966476008124,
+          0.0,
+          0.0
+        ],
+        "precision": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.995966476008124,
+          null,
+          null
+        ],
+        "f1": [
+          0.9979791624557027,
+          0.0,
+          0.0
+        ],
+        "foreground_miou": 0.0,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            62203891,
+            113206,
+            138711
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "small_0_to_1pct": {
+      "images": 81,
+      "metrics": {
+        "iou": [
+          0.9898356232651709,
+          0.036148961502844294,
+          0.3385571949137426
+        ],
+        "precision": [
+          0.9979871062805217,
+          0.03659557371011484,
+          0.46788280039442176
+        ],
+        "recall": [
+          0.9918157363272389,
+          0.7476060191518468,
+          0.5505324659180375
+        ],
+        "f1": [
+          0.9948918510574506,
+          0.0697756072648345,
+          0.5058539092691656
+        ],
+        "foreground_miou": 0.18735307820829344,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            5239585,
+            28126,
+            15110
+          ],
+          [
+            369,
+            1093,
+            0
+          ],
+          [
+            10199,
+            648,
+            13286
+          ]
+        ]
+      }
+    },
+    "medium_1_to_10pct": {
+      "images": 331,
+      "metrics": {
+        "iou": [
+          0.9711950594506777,
+          0.48485514457054135,
+          0.5799233360863727
+        ],
+        "precision": [
+          0.9855482705103173,
+          0.6315214740837336,
+          0.7439289629725684
+        ],
+        "recall": [
+          0.9852259170118804,
+          0.6761351543855367,
+          0.7245581428725199
+        ],
+        "f1": [
+          0.9853870673979116,
+          0.6530672656433083,
+          0.7341157926344711
+        ],
+        "foreground_miou": 0.532389240328457,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            20338259,
+            131979,
+            173006
+          ],
+          [
+            113357,
+            238268,
+            772
+          ],
+          [
+            184876,
+            7045,
+            504854
+          ]
+        ]
+      }
+    },
+    "large_over_10pct": {
+      "images": 564,
+      "metrics": {
+        "iou": [
+          0.8998384558375095,
+          0.7172569679542855,
+          0.7577867573198461
+        ],
+        "precision": [
+          0.9515702006560282,
+          0.81960954837311,
+          0.8557990630745217
+        ],
+        "recall": [
+          0.9430261608866166,
+          0.8517109038227775,
+          0.8687086972877558
+        ],
+        "f1": [
+          0.9472789152915972,
+          0.8353519378159593,
+          0.8622055595358653
+        ],
+        "foreground_miou": 0.7375218626370659,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            25503307,
+            680444,
+            860363
+          ],
+          [
+            549112,
+            3296645,
+            24858
+          ],
+          [
+            748869,
+            45125,
+            5253581
+          ]
+        ]
+      }
+    }
+  },
+  "size_group_definition": "fixed before validation analysis: zero, (0,1%], (1%,10%], >10% true foreground pixels",
+  "model": "baseline",
+  "split": "test",
+  "checkpoint_epoch": 27,
+  "checkpoint_sha256": "36c816f8d6ef8fe71d984cd6af3f7ec1dd3f7f800da5107563c26c4e3bd38243",
+  "evaluation_seconds_including_io_and_png": 89.55780866600253,
+  "warning": "single seed42; fixed validation-selected weights; no test-based tuning"
+}

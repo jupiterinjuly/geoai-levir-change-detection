@@ -1,0 +1,95 @@
+{
+  "status": "passed_image_integrity_and_pairing",
+  "splits": {
+    "train": {
+      "samples": 6815,
+      "class_pixels": [
+        408813592,
+        16698760,
+        21115488
+      ],
+      "class_proportions": [
+        0.9153338761864912,
+        0.03738853359432318,
+        0.04727759021918562
+      ],
+      "images_with_road": 2364,
+      "images_with_building": 2972,
+      "images_without_target_change": 3336
+    },
+    "val": {
+      "samples": 1333,
+      "class_pixels": [
+        80383581,
+        2827980,
+        4147927
+      ],
+      "class_proportions": [
+        0.9201471167047133,
+        0.03237175565864122,
+        0.04748112763664549
+      ],
+      "images_with_road": 424,
+      "images_with_building": 567,
+      "images_without_target_change": 689
+    },
+    "test": {
+      "samples": 1929,
+      "class_pixels": [
+        115425987,
+        4224474,
+        6768483
+      ],
+      "class_proportions": [
+        0.9130434359584589,
+        0.03341646327942749,
+        0.05354010076211363
+      ],
+      "images_with_road": 603,
+      "images_with_building": 878,
+      "images_without_target_change": 953
+    }
+  },
+  "shape": [
+    256,
+    256,
+    3
+  ],
+  "colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      255,
+      255,
+      0
+    ],
+    [
+      255,
+      0,
+      0
+    ]
+  ],
+  "cross_split_exact_pairs": 5,
+  "cross_split_unordered_pairs": 5,
+  "cross_split_individual_image_groups": 10,
+  "test_use": "integrity, hashes and label counts only; no prediction, selection or tuning",
+  "normalization": {
+    "mean": [
+      0.39481969548156154,
+      0.3902054100503381,
+      0.333307208542785
+    ],
+    "std": [
+      0.19992954791246345,
+      0.19013196691479578,
+      0.17531605991496182
+    ],
+    "source_split": "train",
+    "images": 13630,
+    "pixels_per_channel": 893255680
+  },
+  "elapsed_seconds": 46.927997374999904
+}

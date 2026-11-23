@@ -1,0 +1,22 @@
+{
+  "metric_handcheck": "passed",
+  "color_mapping": "passed",
+  "unknown_color_rejected": true,
+  "loss_perfect_prediction": "passed",
+  "matched_common_initialization": true,
+  "device": "mps",
+  "models": [
+    {
+      "model": "baseline",
+      "parameters": 1964563,
+      "loss": 0.9055867195129395,
+      "forward_backward_update": "passed"
+    },
+    {
+      "model": "attention",
+      "parameters": 2491667,
+      "loss": 0.9008579254150391,
+      "forward_backward_update": "passed"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "mean": [
+    0.39482559182707,
+    0.39020915510984355,
+    0.3333292592322749
+  ],
+  "std": [
+    0.19979464796964252,
+    0.18998551562179386,
+    0.17520553465797975
+  ],
+  "source_split": "train",
+  "pairs": 6794,
+  "images": 13588,
+  "pixels_per_channel": 890503168,
+  "method": "subtract excluded training-image first/second moments from official train moments",
+  "excluded": [
+    "train_000017.png",
+    "train_000018.png",
+    "train_000019.png",
+    "train_000020.png",
+    "train_000994.png",
+    "train_000995.png",
+    "train_000996.png",
+    "train_001009.png",
+    "train_001010.png",
+    "train_001389.png",
+    "train_001391.png",
+    "train_001392.png",
+    "train_001405.png",
+    "train_001406.png",
+    "train_001407.png",
+    "train_005697.png",
+    "train_005698.png",
+    "train_005701.png",
+    "train_005705.png",
+    "train_005709.png",
+    "train_005710.png"
+  ],
+  "status": "candidate; not used for the diagnostic runs"
+}

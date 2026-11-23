@@ -1,0 +1,29 @@
+{
+  "samples": [
+    {
+      "filename": "test_000718.png",
+      "rule": "positive samples: median baseline per-image foreground IoU"
+    },
+    {
+      "filename": "test_000745.png",
+      "rule": "largest attention-minus-baseline per-image foreground IoU"
+    },
+    {
+      "filename": "test_000207.png",
+      "rule": "smallest attention-minus-baseline per-image foreground IoU"
+    },
+    {
+      "filename": "test_000333.png",
+      "rule": "lowest attention per-image foreground IoU among samples with true change >=1pct"
+    },
+    {
+      "filename": "test_000044.png",
+      "rule": "first filename among small-change samples"
+    },
+    {
+      "filename": "test_002061.png",
+      "rule": "largest attention false-positive area among empty samples"
+    }
+  ],
+  "selection_scope": "descriptive test diagnostics after fixed all-sample scoring; not representative accuracy estimates"
+}

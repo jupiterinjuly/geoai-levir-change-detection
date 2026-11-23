@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "seed": 42,
+  "resume_from_epochs": 5,
+  "next_segment_total_epoch_cap": 15,
+  "additional_epochs_per_model_at_most": 10,
+  "eventual_common_upper_cap": 30,
+  "early_stopping_patience": 7,
+  "recipe_changes": null,
+  "resume_source": "last.pt with optimizer, RNG and early-stop state",
+  "data": "6794 train / 1333 validation; official test held out",
+  "estimated_additional_hours_range": [
+    5,
+    8
+  ],
+  "estimation_basis": "first segment measured ~2.54h for five paired epochs; latest paired epoch ~43min including validation; load/sleep may change wall time",
+  "test_inference": "not authorized as part of proposed next training segment",
+  "reason": "both models achieved their current best validation score at epoch5; more training is needed before final comparison",
+  "approved_beijing": "2026-11-21T12:01:16.014794+08:00",
+  "user_authorization": "嗯可以 没问题的话就继续吧"
+}

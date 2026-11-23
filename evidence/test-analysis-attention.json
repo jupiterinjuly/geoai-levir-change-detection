@@ -1,0 +1,241 @@
+{
+  "folder": "runs/formal_attention_seed42/final_test_best_ep29_2144509a9718",
+  "samples": 1929,
+  "iou": [
+    0.9689307513145853,
+    0.6835704398553034,
+    0.7244201957830438
+  ],
+  "precision": [
+    0.9845568617138711,
+    0.8264003005698917,
+    0.8267832197138026
+  ],
+  "recall": [
+    0.9838838545084306,
+    0.798186709161898,
+    0.8540384898654544
+  ],
+  "f1": [
+    0.9842202430610264,
+    0.8120485174520571,
+    0.8401898766374527
+  ],
+  "foreground_miou": 0.7039953178191736,
+  "foreground_valid_classes": 2,
+  "confusion_matrix": [
+    [
+      113565765,
+      688608,
+      1171614
+    ],
+    [
+      813105,
+      3371919,
+      39450
+    ],
+    [
+      968216,
+      19722,
+      5780545
+    ]
+  ],
+  "road_area_mae_pp": 0.8282753888531137,
+  "building_area_mae_pp": 0.8336108233905197,
+  "empty_images": 953,
+  "empty_false_alarm_image_rate": 0.2602308499475341,
+  "empty_mean_pred_change_fraction": 0.00261339986186713,
+  "ranking_top20pct": {
+    "selected_images": 386,
+    "positive_images_total": 976,
+    "positive_image_recall": 0.3944672131147541,
+    "true_change_pixel_coverage": 0.7445852831044458,
+    "tie_break": "filename ascending",
+    "claim_scope": "offline scale-based sorting; not measured human labor savings"
+  },
+  "size_groups": {
+    "empty": {
+      "images": 953,
+      "metrics": {
+        "iou": [
+          0.9973866001381329,
+          0.0,
+          0.0
+        ],
+        "precision": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.9973866001381329,
+          null,
+          null
+        ],
+        "f1": [
+          0.9986915903702936,
+          0.0,
+          0.0
+        ],
+        "foreground_miou": 0.0,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            62292586,
+            46869,
+            116353
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "small_0_to_1pct": {
+      "images": 81,
+      "metrics": {
+        "iou": [
+          0.9911579928997177,
+          0.029889900234508524,
+          0.3793250747543785
+        ],
+        "precision": [
+          0.998057999754967,
+          0.030757904208761094,
+          0.516072790672333
+        ],
+        "recall": [
+          0.9930732084240598,
+          0.5143638850889193,
+          0.5887374135001865
+        ],
+        "f1": [
+          0.9955593643840358,
+          0.05804484581837829,
+          0.5500154846701766
+        ],
+        "foreground_miou": 0.20460748749444352,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            5246228,
+            23270,
+            13323
+          ],
+          [
+            710,
+            752,
+            0
+          ],
+          [
+            9498,
+            427,
+            14208
+          ]
+        ]
+      }
+    },
+    "medium_1_to_10pct": {
+      "images": 331,
+      "metrics": {
+        "iou": [
+          0.9715990877565279,
+          0.4726710006395823,
+          0.5915604050402883
+        ],
+        "precision": [
+          0.9848395199618243,
+          0.674475227224424,
+          0.7429698263441377
+        ],
+        "recall": [
+          0.9863516121787835,
+          0.6123690042764268,
+          0.7437738150766029
+        ],
+        "f1": [
+          0.9855949861105945,
+          0.6419234172932051,
+          0.7433716033232352
+        ],
+        "foreground_miou": 0.5321157028399353,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            20361497,
+            103695,
+            178052
+          ],
+          [
+            135366,
+            215797,
+            1234
+          ],
+          [
+            178076,
+            456,
+            518243
+          ]
+        ]
+      }
+    },
+    "large_over_10pct": {
+      "images": 564,
+      "metrics": {
+        "iou": [
+          0.9004858467636325,
+          0.7164411106781938,
+          0.7551565346130474
+        ],
+        "precision": [
+          0.9462572620227204,
+          0.8553495638228747,
+          0.8533214226018163
+        ],
+        "recall": [
+          0.9490218093297491,
+          0.8152115361512318,
+          0.8678013914668277
+        ],
+        "f1": [
+          0.9476375194238716,
+          0.8347983583254031,
+          0.8605004963611794
+        ],
+        "foreground_miou": 0.7357988226456207,
+        "foreground_valid_classes": 2,
+        "confusion_matrix": [
+          [
+            25665454,
+            514774,
+            863886
+          ],
+          [
+            677029,
+            3155370,
+            38216
+          ],
+          [
+            780642,
+            18839,
+            5248094
+          ]
+        ]
+      }
+    }
+  },
+  "size_group_definition": "fixed before validation analysis: zero, (0,1%], (1%,10%], >10% true foreground pixels",
+  "model": "attention",
+  "split": "test",
+  "checkpoint_epoch": 29,
+  "checkpoint_sha256": "2144509a97185d0a1c11175029da37bacc41a4e979a7c1152477dc05a46deb53",
+  "evaluation_seconds_including_io_and_png": 127.77480995799851,
+  "warning": "single seed42; fixed validation-selected weights; no test-based tuning"
+}
